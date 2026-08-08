@@ -96,17 +96,8 @@ The project uses a **star-schema-based analytical model** centered on the `ad_ev
 - `Calendar` – date dimension for time-based analysis
 
 ### Relationships
+<img width="1218" height="656" alt="image" src="https://github.com/user-attachments/assets/92ed2ddb-841f-4575-895d-0f03fdb00954" />
 
-```text
-campaigns (1) ──── (*) ads
-                       │
-                       ▼
-                    ad_events
-                       ▲
-                       │
-users (1) ──────────── (*)
-
-Calendar (1) ──────── (*) ad_events
 ```
 
 This structure allows analysis from individual ad events to advertisements, campaigns, audience segments, and time periods.
@@ -500,7 +491,7 @@ Key metrics include:
 - Conversion Rate
 - Purchase Rate
 
-![Dashboard 1 - Overview](images/dashboard-01.png)
+<img width="1199" height="696" alt="image" src="https://github.com/user-attachments/assets/944de316-f062-4ed0-8887-5e59a18319da" />
 
 ---
 
@@ -515,7 +506,7 @@ Analyzes campaign performance across:
 - Ad format
 - Engagement and conversion metrics
 
-![Dashboard 2 - Performance Trends](images/dashboard-02.png)
+<img width="1204" height="705" alt="image" src="https://github.com/user-attachments/assets/af7b614b-0c1f-4378-875c-76209cadeb98" />
 
 ---
 
@@ -530,7 +521,7 @@ Analyzes:
 - Targeting accuracy
 - Actual vs intended audience
 
-![Dashboard 3 - Audience Insights](images/dashboard-03.png)
+<img width="1200" height="685" alt="image" src="https://github.com/user-attachments/assets/532e0046-929c-4b51-a817-e61123eefc8d" />
 
 ---
 
@@ -545,7 +536,7 @@ Analyzes:
 - Conversion Rate
 - Campaign-level efficiency
 
-![Dashboard 4 - Budget & Cost Efficiency](images/dashboard-04.png)
+<img width="1194" height="688" alt="image" src="https://github.com/user-attachments/assets/afb38787-bc03-4f02-b54e-67ce35587923" />
 
 ---
 
@@ -566,29 +557,6 @@ Analyzes:
 - Insight generation
 - Data storytelling
 - Business recommendations
-
----
-
-# 📁 Project Structure
-
-```text
-.
-├── README.md
-├── data/
-│   ├── campaigns.csv
-│   ├── ads.csv
-│   ├── users.csv
-│   └── ad_events.csv
-├── images/
-│   ├── er-diagram.png
-│   ├── dashboard-01.png
-│   ├── dashboard-02.png
-│   ├── dashboard-03.png
-│   └── dashboard-04.png
-└── Meta_Ads_Performance_Analysis.pbix
-```
-
-> The raw dataset may be omitted from the repository if its redistribution is restricted. In that case, provide the original dataset source in the project documentation.
 
 ---
 
