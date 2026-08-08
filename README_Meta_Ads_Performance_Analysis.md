@@ -100,14 +100,6 @@ The project uses a **star-schema-based analytical model** centered on the `ad_ev
 
 ```
 
-This structure allows analysis from individual ad events to advertisements, campaigns, audience segments, and time periods.
-
-### ER Diagram
-
-![ER Diagram](images/er-diagram.png)
-
----
-
 ## 🧹 Data Preparation & Modeling
 
 ### Data Preparation
