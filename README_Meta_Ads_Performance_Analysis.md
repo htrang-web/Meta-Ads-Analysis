@@ -155,13 +155,9 @@ Video attracts attention most effectively; Carousel converts that attention into
 
 ### Targeting Accuracy
 
-| Target Age Group | Actual Highest-Reach Group |
-|---|---|
-| 18–24 | 35–44 |
-| 25–34 | 35–44 |
-| 35–44 | 35–44 |
+Across all ad events, only 5.48% reached users who actually matched the ad's intended targeting criteria (Targeting Accuracy Rate), pointing to a meaningful gap between intended and actual audience delivery.
 
-Regardless of which age group a campaign targets, the actual audience reached is concentrated in the 35–44 bracket. Delivery is tracking the platform's overall user base more than the intended targeting parameters — worth monitoring alongside performance metrics.
+Breaking impressions down by targeted vs. actual age group also shows a recurring skew toward the 35–44 bracket regardless of which age group was targeted — a pattern worth validating further at the raw data level (e.g. confirming `age_group` and `user_age` line up consistently per user) before treating it as a confirmed delivery bias.
 
 ### Engagement vs. Conversion
 
